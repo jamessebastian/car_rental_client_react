@@ -1,0 +1,10 @@
+#right {
+    width:200px;
+    margin:20px ;
+    float:right;
+    top:-40px;
+}
+.button {
+    width:100%;
+    display:block;
+}

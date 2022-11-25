@@ -1,0 +1,85 @@
+nav {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    position: relative;
+  }
+  
+  
+  .menu-icon {
+    display: none;
+    font-size: 20px;
+  }
+  
+  
+  .logo {
+    font-weight: 600;
+    font-size: 25px;
+    color: tomato;
+    margin-left: 50px;;
+  }
+  
+  .logo font {
+    color: #fff;
+  }
+  
+  .menu-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu-list li:last-child a {
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: #01aacd;
+    margin-left: 20px;
+  }
+  
+  .menu-list li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin-left: 20px;
+  }
+  
+  .menu-list li a:hover,
+  .menu-list li a.active {
+    background-color: #fff;
+    color: #000;
+  }
+  .navbar-corner {
+    /* border-radius: 25px; */
+    border-radius: 1px 1px 25px 25px;
+  }
+  
+  
+
+
+  .sidebar-list {
+    list-style-type: none;
+
+  }
+  .sidebar-list li{
+    margin: 10px;
+  }
+
+  
+  .sidebar-list li a {
+    
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin-left: 20px;
+  }
+  
+  .sidebar-list li a:hover,
+  .sidebar-list li a.active {
+    background-color: #fff;
+    color: #000;
+  }
