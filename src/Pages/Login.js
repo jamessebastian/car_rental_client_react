@@ -59,7 +59,7 @@ const Login = () => {
       <h3>Login</h3>
       <form onSubmit={(e) => onSubmit(e)}>
         <div>
-          <label>Email</label>
+          <label>Email 2</label>
 
           <input
           required
